@@ -1,0 +1,33 @@
+
+.preso-header{
+  position:relative;
+  z-index: 1;
+  padding:8px;
+  background-color: #1a1a1a;
+}
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+.reveal p.image-attribution{
+  font-size:10px;
+  margin:6px;
+  text-align: right;
+}
+
+.reveal section a {
+  color:#ff0066;
+  padding:8px;
+  background: rgba(0, 0, 0, 0.6) /* Green background with 30% opacity */
+}
+
+.reveal section .image-attribution a {
+  background: rgba(255, 255, 255, 0.6) /* Green background with 30% opacity */
+}
+
+.reveal ul.nostyle{
+  list-style:none;
+  line-height: 1.5em;
+}
