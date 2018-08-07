@@ -15,22 +15,14 @@
   box-shadow: none;
 }
 
-.reveal p.image-attribution{
+.reveal .image-attribution{
+  position: fixed;
+  bottom: 0px;
   font-size:10px;
   margin:6px;
   text-align: right;
-}
-
-/*
-.reveal section a {
-  color:#ff0066;
   padding:8px;
-  background: rgba(0, 0, 0, 0.6) /* Green background with 30% opacity */
-}
-*/
-
-.reveal section .image-attribution a {
-  background: rgba(255, 255, 255, 0.6) /* Green background with 30% opacity */
+  background: rgba(255, 255, 255, 0.6)
 }
 
 .reveal ul.nostyle{
@@ -39,4 +31,16 @@
 
 .reveal ul.nostyle li{
   margin-bottom:20px;
+}
+
+.reveal ul.nostyle li a{
+  color:#ff0066;
+  padding:8px;
+  background: rgba(0, 0, 0, 0.6)
+}
+
+li.highlight{
+  color:#fff;
+  padding:8px;
+  background: rgba(0, 0, 0, 0.6)
 }
