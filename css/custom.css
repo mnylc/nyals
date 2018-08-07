@@ -3,7 +3,11 @@
   position:relative;
   z-index: 2;
   padding:8px;
-  background-color: #1a1a1a;
+  background-color: #fff;
+}
+
+.preso-header img{
+  padding:8px;
 }
 
 .reveal section img {
@@ -17,11 +21,13 @@
   text-align: right;
 }
 
+/*
 .reveal section a {
   color:#ff0066;
   padding:8px;
   background: rgba(0, 0, 0, 0.6) /* Green background with 30% opacity */
 }
+*/
 
 .reveal section .image-attribution a {
   background: rgba(255, 255, 255, 0.6) /* Green background with 30% opacity */
@@ -29,5 +35,8 @@
 
 .reveal ul.nostyle{
   list-style:none;
-  line-height: 1.5em;
+}
+
+.reveal ul.nostyle li{
+  margin-bottom:20px;
 }
