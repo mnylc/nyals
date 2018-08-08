@@ -39,8 +39,8 @@
   background: rgba(0, 0, 0, 0.6)
 }
 
-li.highlight{
+.highlight{
   color:#fff;
   padding:8px;
-  background: rgba(0, 0, 0, 0.6)
+  /*background: rgba(0, 0, 0, 0.6)*/
 }
